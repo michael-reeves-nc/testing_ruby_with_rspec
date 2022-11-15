@@ -8,6 +8,10 @@ RSpec.shared_context 'common' do
   end
 
   let(:some_variable) { [1, 2, 3] }
+
+  it "is true" do
+    expect(true).to be true
+  end
 end
 
 RSpec.describe 'first example group' do
